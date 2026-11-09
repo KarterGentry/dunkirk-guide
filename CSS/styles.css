@@ -1,0 +1,104 @@
+body {
+    background-color: #C3DFE0;
+    font-family: 'readex-pro', sans-serif;
+}
+
+.main-header {
+    text-align: center;
+    font-size: 56px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+/* Top Navigation Bar */
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #9DAD6F;
+    font-size: 24px;
+    margin: 15px;
+    gap: 30px;
+    border-radius: 10px;
+}
+
+.nav a {
+    color: black;
+}
+
+.nav a:hover {
+    color: white;
+}
+
+/* Headers and Text */
+.small-header {
+    text-align: left;
+    margin-bottom: 0px;
+    margin-top: 100px;
+}
+
+.top-header {
+    margin-top: 10px;
+}
+
+.container {
+    display: flex;
+    align-items: start;
+    gap: 40px;
+}
+
+p {
+    margin-left: 50px;
+}
+
+.main-content {
+    flex: 5;
+}
+
+/* Sidebar Controls */
+.sidebar {
+    font-size: 24px;
+    flex: 1.5;
+    padding: 20px;
+    list-style: none;
+    background-color: #9DAD6F;
+    position: sticky;
+    top: 300px;
+    margin-right: 20px;
+    border-radius: 20px;
+}
+
+.sidebar li {
+    margin-bottom: 10px;
+}
+
+.sidebar-title {
+    font-size: 38px;
+    color: black;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.sidebar a {
+    color: black;
+}
+
+.sidebar a:hover {
+    color: white;
+}
+
+/* General Formatting */
+.img-format {
+    display: flex;
+    flex-direction: row-reverse;
+}
+img {
+    max-width: 20%;
+    border-radius: 10%;
+    border: 5px solid #9DAD6F;
+    margin: 10px;
+}
+
+a {
+    text-decoration: none;
+}
